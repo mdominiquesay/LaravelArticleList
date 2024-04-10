@@ -18,15 +18,16 @@ Portfolio Website with Laravel 10
 This repository contains a Portfolio website built with Laravel. The website serves as a platform to display the developer's projects, skills, and other relevant information. 
 
 
+## Installation
 To install and run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/yourusername/laravelArticleList.git
-Change into the project directory: cd portfolio
-Install Composer dependencies: composer install
-Install NPM dependencies: npm install
-Create a copy of the .env.example file and rename it to .env: cp .env.example .env
-Generate an application key: php artisan key:generate
-Configure your database settings in the .env file.
-Migrate the database: php artisan migrate
-Seed the database with sample data: php artisan db:seed
-Start the development server: php artisan serve
+1. Clone the repository: `git clone https://github.com/mdominiquesay/LaravelArticleList.git`
+2. Change into the project directory: `cd LaravelArticleList`
+3. Install Composer dependencies: `composer install`
+4. Install NPM dependencies: `npm install`
+5. Create a copy of the `.env.example` file and rename it to `.env`: `cp .env.example .env`
+6. Generate an application key: `php artisan key:generate`
+7. Configure your database settings in the `.env` file.
+8. Migrate the database: `php artisan migrate`
+9. Seed the database with sample data: `php artisan db:seed`
+10. Start the development server: `php artisan serve`
